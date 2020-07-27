@@ -1,0 +1,19 @@
+main {
+    padding: 20px 40px;
+    table {
+        text-align: center;
+        border: $border_table;
+        tr {
+            height: 40px;
+            width: 100px;
+            th {
+                height: 40px;
+                width: 200px;
+                border: $border_table;
+            }
+            td {
+                border: $border_table;
+            }
+        }
+    }
+}

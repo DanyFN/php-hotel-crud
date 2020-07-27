@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 100px;
+  background-color: blue;
+  text-align: center;
+  line-height: 100px;
+}
+
+header h1 {
+  color: white;
+  text-transform: uppercase;
+}
+
+main {
+  padding: 20px 40px;
+}
+
+main table {
+  text-align: center;
+  border: 1px solid black;
+}
+
+main table tr {
+  height: 40px;
+  width: 100px;
+}
+
+main table tr th {
+  height: 40px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+main table tr td {
+  border: 1px solid black;
+}
+
