@@ -7,5 +7,5 @@
     $dbname = "boolean-hotel";
 
     // Creo variabile per path assoluta
-    $path_base = 'http://localhost/repo-PHP/php-hotel-crud';
+    $path_base = 'http://localhost/repo-PHP/php-hotel-crud/';
 ?>
