@@ -2,6 +2,9 @@
 <?php include __DIR__ . '/partials/header.php'; ?>
 
         <main>
+          <?php if (isset($_GET["uproom"]) ) { ?>
+            <p>Update stanza numero:"<?php echo $_GET["uproom"]; ?> è avvenuto con successo"</p>
+          <?php } ?>
             <!-- Inizio Tabella -->
             <table>
                 <thead>
@@ -22,6 +25,10 @@
                             <td>
                                 <a href="<?php echo $path_base . 'show/show.php?id=' . $row['id']; ?>">Dettagli</a>
                             </td>
+                            <td>
+                                <a href="<?php echo $path_base . 'update/edit.php?id=' . $row['id']; ?>">Aggiorna</a>
+                            </td>
+
                         </tr>
                         <!-- Fine Singola Stanza -->
                     <?php } ?>

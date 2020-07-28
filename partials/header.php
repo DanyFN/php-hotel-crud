@@ -8,4 +8,5 @@
     <body>
         <header>
             <h1>Boolean Hotel</h1>
+            <p><a href="<?php echo $path_base; ?>">Torna all'elenco delle stanze</a></p>
         </header>
